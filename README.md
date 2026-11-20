@@ -11,7 +11,7 @@ Get the latest version from **[Releases](https://github.com/BEAMevents/BEAMcxp/r
 - **Windows: BEAMcxp-Portable-x.y.z.exe** runs without installing (e.g. from a USB stick). It tells you when a newer version is out, but doesn't update itself.
 - **Mac (Apple Silicon): BEAMcxp-x.y.z-mac-arm64.dmg**: open it and drag BEAMcxp to Applications. It updates itself from then on.
 
-The installers aren't notarized yet. On Windows, SmartScreen may warn on first launch: click **More info → Run anyway**. On a Mac, the first time, open it, click **Done**, then go to System Settings → Privacy & Security and click **Open Anyway**. macOS also asks for **Local Network** access the first time: allow it, or BEAMcxp can't reach the processors.
+The Mac app is signed and notarized by Apple (from version 1.0.3), so it opens with a normal double-click. The Windows installer isn't code-signed yet, so SmartScreen may warn on first launch: click **More info → Run anyway**. macOS also asks for **Local Network** access the first time: allow it, or BEAMcxp can't reach the processors.
 
 ## Updates
 BEAMcxp checks for updates in the background and shows **Update x.y.z ready** in its header. Click it (or the version number), then **Install & restart**. It never restarts while a link test is running.
